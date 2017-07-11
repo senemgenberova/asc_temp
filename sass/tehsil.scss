@@ -1,0 +1,82 @@
+.education_slider{
+    clear: both;
+    color: white;
+}
+
+.carousel-control.left{
+    background-image:none;
+}
+
+.carousel-control.right{
+    background-image:none;
+}
+
+.carousel-inner > .item > img{
+    width: 100%;
+    filter: brightness(60%);
+}
+
+.carousel-indicators .active{
+    margin: 1px;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+}
+
+.carousel-caption{
+    top: 35%;
+
+    h1{
+        font-size: 90px;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        color: white;
+        span{
+            color: #FFE687;
+        }
+    }     
+    p{
+        font-size: 16px;
+        line-height: 27px;
+    }   
+}
+
+.carousel-indicators {
+    bottom: 30px;
+}
+
+@media only screen and (max-width: 1240px){
+    .carousel-caption{
+        h1 {
+            font-size: 55px;;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 23px;
+        }
+    }     
+}
+
+@media only screen and (max-width: 960px){
+    .carousel-caption{
+        h1 {
+            font-size: 43px;
+            margin-bottom: 15px;
+        }
+    }     
+}
+
+@media only screen and (max-width: 767px){
+    .carousel-indicators{
+        display: none;
+    }
+    .carousel-caption {
+        top: 30%;
+    }     
+}
