@@ -5,12 +5,6 @@ $yellow:#ffce72;
     color: white;
 }
 
-.carousel-inner{
-    .item{
-        height: 100vh;
-    }
-}
-
 .carousel-control.left{
     background-image:none;
 }
@@ -41,6 +35,7 @@ $yellow:#ffce72;
     top: 35%;
     left:15%;
     right: 15%;
+    padding: 0;
 
     h1{
         font-family: 'Bubblegum Sans', cursive;
@@ -52,15 +47,19 @@ $yellow:#ffce72;
         span{
             color:$yellow;
         }
-    }     
+    }  
     p{
-        font-size: 16px;
-        line-height: 27px;
+        display: none;
     }   
 }
 
 .carousel-indicators {
     bottom: 20px;
+}
+
+.gallery-holder .main-heading-holder{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .about-school{
@@ -78,12 +77,82 @@ $yellow:#ffce72;
     }
 }
 
+.main-heading{
+    h2{
+        font-family: 'Bubblegum Sans', cursive;
+        font-size: 50px;
+    }
+    strong{
+        color:$yellow;
+    }
+    span{
+        color:$yellow;
+        margin-top: 20px;
+    }
+}
+
+.section-padding-top {
+    padding: 50px 0 40px ;
+}
+
+
+.filter-tags-holder ul li a{
+    padding: 5px 15px;
+
+    &:focus{
+        text-decoration: none;
+    }
+}
+
+.filter-tags-holder ul li a.selected{
+    border-color: $yellow
+}
+
+.gallery-hover{
+    background-color: $yellow
+}
+
+.carousel-inner{
+    .item{
+        height: 100vh;
+    }
+}  
+
+@media only screen and (min-width: 540px){
+    .carousel-caption{
+        p{
+            font-size: 16px;
+            line-height: 27px;
+            display: block;        
+        }   
+    }
+}
+
+// @media only screen and (max-width: 540px){
+//     .carousel-caption {
+//         top: 40% !important;
+//     }
+// }
+
+@media only screen and (min-width: 1240px){
+
+}
+
 @media only screen and (min-width: 481px){
     .about-school{
         h2{
             font-size: 45px;
         }
     }    
+}
+
+
+@media only screen and (max-width: 887px){
+    .carousel-inner{
+        .item{
+            height: 100%;
+        }
+    }  
 }
 
 @media only screen and (max-width: 1240px){
@@ -104,22 +173,41 @@ $yellow:#ffce72;
         h1 {
             font-size: 43px;
             margin-bottom: 15px;
+            white-space: pre-wrap;
+            line-height: 1;
         }
     }     
 }
 
 @media only screen and (max-width: 767px){
-    .carousel-indicators{
-        display: none;
-    }
     .carousel-caption {
         top: 30%;
     }     
 }
 
+@media only screen and (max-width: 679px){
+    .filter-tags-holder ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        li{
+            margin: 0 !important;
+            padding-bottom: 0 ;
+        }
+    }
+    .gallery-holder .main-heading{
+        h2{
+            margin: 0;
+        }
+    }
+}
+
 @media only screen and (max-width: 425px){
     .carousel-indicators{
         display: none;
+    }
+    .carousel-caption {
+        top: 40%;
     }
     .carousel-caption {
         h1{
@@ -131,5 +219,9 @@ $yellow:#ffce72;
         p{
             display: none;
         }
-    }     
+    }   
+    .main-heading h2{
+        font-size: 40px; 
+    }
+     
 }
