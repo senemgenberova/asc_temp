@@ -2,6 +2,7 @@
 
 <html lang="az" class="no-js">
 <!--<![endif]-->
+
 <head>
     <meta http-equiv="content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -39,8 +40,8 @@
                 </div>
                 <div class="login-details">
                     <p class="login">
-                        <a href="#">Qeydiyyat</a>
-                        <a href="#">Giriş</a>
+                        <a href="#">Qeydiyyat <i class="fa fa-user login_icon" aria-hidden="true"></i></a>
+                        <a href="#">Giriş <i class="fa fa-sign-in login_icon" aria-hidden="true"></i></a>
                     </p>
                 </div>
             </div>
@@ -82,7 +83,12 @@
                     </nav>
                     <!--nav ends-->
 
-                    <ul class="dt-sc-social-icons">
+                    <ul id="icons" class="dt-sc-social-icons">
+                        <li>
+                            <a href="#"  class="dt-sc-tooltip-top search">
+                                <span class="fa fa-search"></span>
+                            </a>
+                        </li>
                         <li>
                             <a href="#" title="Facebook" class="dt-sc-tooltip-top facebook">
                                 <span class="fa fa-facebook"></span>
@@ -98,6 +104,9 @@
                                 <span class="fa fa-google-plus"></span>
                             </a>
                         </li>
+                        <div class="search_tool">
+                            <input type="text" placeholder="Axtar">
+                        </div>
                     </ul>
                 </div>
             </div>

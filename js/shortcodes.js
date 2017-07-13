@@ -81,21 +81,21 @@ jQuery(document).ready(function($) {
   
   
 	//TOOLTIP...
-	if($(".dt-sc-tooltip-bottom").length){
-		$(".dt-sc-tooltip-bottom").each(function(){	$(this).tipTip({maxWidth: "auto"}); });
-	}
+	// if($(".dt-sc-tooltip-bottom").length){
+	// 	$(".dt-sc-tooltip-bottom").each(function(){	$(this).tipTip({maxWidth: "auto"}); });
+	// }
 	
-	if($(".dt-sc-tooltip-top").length){
-		$(".dt-sc-tooltip-top").each(function(){ $(this).tipTip({maxWidth: "auto",defaultPosition: "top"}); });
-	}
+	// if($(".dt-sc-tooltip-top").length){
+	// 	$(".dt-sc-tooltip-top").each(function(){ $(this).tipTip({maxWidth: "auto",defaultPosition: "top"}); });
+	// }
 	
-	if($(".dt-sc-tooltip-left").length){
-		$(".dt-sc-tooltip-left").each(function(){ $(this).tipTip({maxWidth: "auto",defaultPosition: "left"}); });
-	}
+	// if($(".dt-sc-tooltip-left").length){
+	// 	$(".dt-sc-tooltip-left").each(function(){ $(this).tipTip({maxWidth: "auto",defaultPosition: "left"}); });
+	// }
 	
-	if($(".dt-sc-tooltip-right").length){
-		$(".dt-sc-tooltip-right").each(function(){ $(this).tipTip({maxWidth: "auto",defaultPosition: "right"}); });
-	}
+	// if($(".dt-sc-tooltip-right").length){
+	// 	$(".dt-sc-tooltip-right").each(function(){ $(this).tipTip({maxWidth: "auto",defaultPosition: "right"}); });
+	// }
 	
 	$(window).load(function() {  
 	

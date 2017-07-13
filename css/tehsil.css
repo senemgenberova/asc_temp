@@ -2,6 +2,9 @@
   clear: both;
   color: white; }
 
+.carousel-inner .item {
+  height: 100vh; }
+
 .carousel-control.left {
   background-image: none; }
 
@@ -10,34 +13,52 @@
 
 .carousel-inner > .item > img {
   width: 100%;
-  filter: brightness(60%); }
+  filter: brightness(20%); }
 
 .carousel-indicators .active {
   margin: 1px;
-  width: 15px;
-  height: 15px; }
+  width: 17px;
+  height: 17px;
+  background: #ffce72; }
 
 .carousel-indicators li {
-  width: 15px;
-  height: 15px;
-  border: 2px solid #fff; }
+  width: 14px;
+  height: 14px;
+  border: 2px solid #ffce72; }
 
 .carousel-caption {
-  top: 35%; }
+  top: 35%;
+  left: 15%;
+  right: 15%; }
   .carousel-caption h1 {
+    font-family: 'Bubblegum Sans', cursive;
     font-size: 90px;
     text-transform: uppercase;
     margin-bottom: 0px;
-    color: white; }
+    color: white;
+    white-space: nowrap; }
     .carousel-caption h1 span {
-      color: #FFE687; }
+      color: #ffce72; }
   .carousel-caption p {
     font-size: 16px;
     line-height: 27px; }
 
 .carousel-indicators {
-  bottom: 30px; }
+  bottom: 20px; }
 
+.about-school {
+  padding: 40px 0;
+  background: white; }
+  .about-school h2 {
+    font-family: 'Bubblegum Sans', cursive; }
+  .about-school strong {
+    color: #ffce72; }
+  .about-school span {
+    color: #ffce72; }
+
+@media only screen and (min-width: 481px) {
+  .about-school h2 {
+    font-size: 45px; } }
 @media only screen and (max-width: 1240px) {
   .carousel-caption h1 {
     font-size: 55px;
@@ -55,5 +76,16 @@
 
   .carousel-caption {
     top: 30%; } }
+@media only screen and (max-width: 425px) {
+  .carousel-indicators {
+    display: none; }
+
+  .carousel-caption h1 {
+    white-space: pre-wrap;
+    line-height: 1;
+    font-size: 35px;
+    margin-bottom: 0; }
+  .carousel-caption p {
+    display: none; } }
 
 /*# sourceMappingURL=tehsil.css.map */
