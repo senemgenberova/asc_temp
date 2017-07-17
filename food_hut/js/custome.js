@@ -19,7 +19,8 @@
         (function( $ ) {
             //Function to animate slider captions 
             function doAnimations( elems ) {
-                //Cache the animationend event in a variable
+                //Cache the animationend event in a varia
+                e
                 var animEndEv = 'webkitAnimationEnd animationend';
                 
                 elems.each(function () {

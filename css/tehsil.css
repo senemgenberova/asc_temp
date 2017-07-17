@@ -83,6 +83,39 @@
 .carousel-inner .item {
   height: 100vh; }
 
+.color-yellow {
+  color: #ffce72; }
+
+.section-title h4 {
+  font-size: 50px;
+  margin-bottom: 15px; }
+
+.blog {
+  background: white;
+  padding: 80px 0px; }
+
+.blog .blog-post .contents-box .Continue-btn:hover {
+  background: #ffce72; }
+
+.image .overly {
+  background: rgba(255, 206, 114, 0.7); }
+  .image .overly .overly-icon .fa {
+    color: #ffce72; }
+
+.warpper-blog {
+  padding: 60px 0px; }
+  .warpper-blog .inner-blog .image .overly {
+    background: rgba(255, 206, 114, 0.7); }
+  .warpper-blog .inner-blog h2.post-title {
+    margin: 0; }
+    .warpper-blog .inner-blog h2.post-title a {
+      color: #ffce72;
+      font-family: 'Bubblegum Sans', cursive;
+      font-size: 35px; }
+
+.fa-li {
+  top: 0; }
+
 @media only screen and (min-width: 540px) {
   .carousel-caption p {
     font-size: 16px;
@@ -94,6 +127,9 @@
 @media only screen and (max-width: 887px) {
   .carousel-inner .item {
     height: 100%; } }
+@media screen and (max-width: 991px) {
+  .margin-bottom-30-991 {
+    margin-bottom: 30px; } }
 @media only screen and (max-width: 1240px) {
   .carousel-caption h1 {
     font-size: 55px;
@@ -109,7 +145,10 @@
     line-height: 1; } }
 @media only screen and (max-width: 767px) {
   .carousel-caption {
-    top: 30%; } }
+    top: 30%; }
+
+  .blog {
+    padding: 25px 0px; } }
 @media only screen and (max-width: 679px) {
   .filter-tags-holder ul {
     display: flex;

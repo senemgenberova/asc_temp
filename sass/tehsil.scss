@@ -118,6 +118,54 @@ $yellow:#ffce72;
     }
 }  
 
+.color-yellow{
+    color:$yellow;
+}
+
+.section-title h4{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.blog{
+    background: white;
+    padding: 80px 0px;
+}
+
+.blog .blog-post .contents-box .Continue-btn:hover{
+    background: $yellow;
+}
+
+.image .overly{
+    background: rgba(255,206,114,.7);
+    .overly-icon .fa{
+        color:$yellow;
+    }
+}
+
+.warpper-blog{
+    padding: 60px 0px;
+    .inner-blog{
+        .image .overly{
+            background: rgba(255, 206, 114, 0.7)
+        }
+
+        h2.post-title{
+            margin: 0;
+             a{
+                color: $yellow;
+                font-family: 'Bubblegum Sans', cursive;
+                font-size: 35px;
+            }
+        }
+        
+    }  
+} 
+
+.fa-li{
+    top: 0;
+}
+
 @media only screen and (min-width: 540px){
     .carousel-caption{
         p{
@@ -128,15 +176,6 @@ $yellow:#ffce72;
     }
 }
 
-// @media only screen and (max-width: 540px){
-//     .carousel-caption {
-//         top: 40% !important;
-//     }
-// }
-
-@media only screen and (min-width: 1240px){
-
-}
 
 @media only screen and (min-width: 481px){
     .about-school{
@@ -153,6 +192,12 @@ $yellow:#ffce72;
             height: 100%;
         }
     }  
+}
+
+@media screen and (max-width: 991px){
+    .margin-bottom-30-991 {
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (max-width: 1240px){
@@ -182,6 +227,9 @@ $yellow:#ffce72;
 @media only screen and (max-width: 767px){
     .carousel-caption {
         top: 30%;
+    }
+    .blog {
+        padding: 25px 0px;
     }     
 }
 

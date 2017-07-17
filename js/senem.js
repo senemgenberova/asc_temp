@@ -66,8 +66,8 @@ jQuery(document).ready(function ($) {
     //*EDUCATION* 
 
     //education carousel starts
-    $('.carousel').carousel({
-        interval: false
+    $('#carousel-example-generic').carousel({
+        pause: true
     });
 
     //education carousel ends
