@@ -1333,7 +1333,7 @@ header ul.dt-sc-social-icons li a.search:before{content:"\f002";position: relati
 
 header ul.dt-sc-social-icons li a.search span{border-color:#646a82; background:#646a82;}
 
-header ul.dt-sc-social-icons li a.search{border-color:#646a82;}
+header ul.dt-sc-social-icons li a.search{border-color:#646a82;cursor: pointer;}
 
 .dt-menu-toggle{
 	background: #A8B8CA;

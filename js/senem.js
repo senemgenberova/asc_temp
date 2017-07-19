@@ -6,14 +6,14 @@ jQuery(document).ready(function ($) {
 
     $("#icons").find("li").eq(0).click(function () {
         var search = $(this).children();
-        search.css({ "background-color": "#646a82", "color": "white", "border-color": "#646a82" })
+        search.css({ "background-color": "#646a82", "color": "white", "border-color": "#646a82" });
         $(this).siblings().hide();
         $(".search_tool").show();
         search.addClass("no_hover").children().hide();
         clickNumber++;
 
         if (clickNumber == 2) {
-            //ajax
+            search.attr("href","searching_page.html");
             console.log("istek qeyde alindi");
             clickNumber = 0;
         }
